@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hyunji Lee" />
+    <meta
+      name="description"
+      content="List of products which can be filtered and sorted"
+    />
+    <title>Mini Shopping Mall</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <img
+        src="images/logo.png"
+        alt="shopping mall logo"
+        class="header__logo"
+      />
+    </header>
+
+    <!-- Buttons & Select -->
+    <section class="btns-and-select">
+      <div class="btns">
+        <button class="btn" data-category="all">
+          <img
+            src="images/buttons/all.png"
+            alt="'All' button icon"
+            class="btn__icon"
+            data-category="all"
+          /><span class="btn__name" data-category="all">All</span>
+        </button>
+        <button class="btn" data-category="top">
+          <img
+            src="images/buttons/top.png"
+            alt="'Top' button icon"
+            class="btn__icon"
+            data-category="top"
+          /><span class="btn__name" data-category="top">Top</span>
+        </button>
+        <button class="btn" data-category="bottom">
+          <img
+            src="images/buttons/bottom.png"
+            alt="'Pants' button icon"
+            class="btn__icon"
+            data-category="bottom"
+          /><span class="btn__name" data-category="bottom">Bottom</span>
+        </button>
+        <button class="btn" data-category="shoes">
+          <img
+            src="images/buttons/shoes.png"
+            alt="'Shoes' button icon"
+            class="btn__icon"
+            data-category="shoes"
+          /><span class="btn__name" data-category="shoes">Shoes</span>
+        </button>
+        <button class="btn" data-category="bag">
+          <img
+            src="images/buttons/bag.png"
+            alt="'Bag' button icon"
+            class="btn__icon"
+            data-category="bag"
+          /><span class="btn__name" data-category="bag">Bag</span>
+        </button>
+      </div>
+      <select name="sort" class="select">
+        <option value="">Sort by</option>
+        <option value="price-ascending">Price: low to high</option>
+        <option value="price-descending">Price: high to low</option>
+      </select>
+    </section>
+
+    <!-- Products -->
+    <section class="products"></section>
+  </body>
+</html>

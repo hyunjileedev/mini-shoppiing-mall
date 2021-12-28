@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "type": "bag",
+      "price": 75000,
+      "image": "images/products/bag2.png"
+    },
+    {
+      "type": "top",
+      "price": 80000,
+      "image": "images/products/top3.jpg"
+    },
+    {
+      "type": "shoes",
+      "price": 179000,
+      "image": "images/products/shoes4.jpg"
+    },
+    {
+      "type": "bottom",
+      "price": 59000,
+      "image": "images/products/bottom4.jpg"
+    },
+    {
+      "type": "top",
+      "price": 130000,
+      "image": "images/products/top4.jpg"
+    },
+    {
+      "type": "bottom",
+      "price": 119000,
+      "image": "images/products/bottom3.jpg"
+    },
+    {
+      "type": "top",
+      "price": 70000,
+      "image": "images/products/top1.jpg"
+    },
+    {
+      "type": "bottom",
+      "price": 69000,
+      "image": "images/products/bottom5.jpg"
+    },
+    {
+      "type": "shoes",
+      "price": 159000,
+      "image": "images/products/shoes2.jpg"
+    },
+    {
+      "type": "bottom",
+      "price": 139000,
+      "image": "images/products/bottom2.jpg"
+    },
+    {
+      "type": "shoes",
+      "price": 99500,
+      "image": "images/products/shoes1.jpg"
+    },
+    {
+      "type": "bottom",
+      "price": 109000,
+      "image": "images/products/bottom1.png"
+    },
+    {
+      "type": "top",
+      "price": 90000,
+      "image": "images/products/top5.jpg"
+    },
+    {
+      "type": "shoes",
+      "price": 89000,
+      "image": "images/products/shoes3.jpg"
+    },
+    {
+      "type": "top",
+      "price": 110000,
+      "image": "images/products/top2.jpg"
+    },
+    {
+      "type": "bag",
+      "price": 210000,
+      "image": "images/products/bag1.jpg"
+    }
+  ]
+}
